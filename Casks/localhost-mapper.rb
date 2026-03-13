@@ -16,4 +16,10 @@ cask "localhost-mapper" do
   homepage "https://github.com/outscoper/localhost-mapper"
 
   app "Virtual Host Manager.app"
+
+  postflight do
+    system_command "/usr/bin/xattr",
+      args: ["-dr", "com.apple.quarantine", "#{appdir}/Virtual Host Manager.app"],
+      sudo: false
+  end
 end
