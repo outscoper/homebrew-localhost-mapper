@@ -2,12 +2,12 @@ cask "localhost-mapper" do
   version "1.0.0"
 
   on_arm do
-    sha256 "23b56b247f6a81cb67f02e4575d4d73361055c79ca8ec71aed9690f284e2a9bc"
+    sha256 "3d62a5b6e071d6be0672e3fa25245219e8677e49d38f1f48ea7aec0acc2b395e"
     url "https://github.com/outscoper/localhost-mapper/releases/download/v#{version}/Localhost-Mapper-#{version}-arm64.dmg"
   end
 
   on_intel do
-    sha256 "23b56b247f6a81cb67f02e4575d4d73361055c79ca8ec71aed9690f284e2a9bc"
+    sha256 "3d62a5b6e071d6be0672e3fa25245219e8677e49d38f1f48ea7aec0acc2b395e"
     url "https://github.com/outscoper/localhost-mapper/releases/download/v#{version}/Localhost-Mapper-#{version}.dmg"
   end
 
